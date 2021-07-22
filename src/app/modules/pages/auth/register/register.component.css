@@ -1,0 +1,21 @@
+* {
+    color: #000;
+}
+.form-control {
+}
+.user-data .form-group{
+    display: flex;
+    flex-direction: column;
+}
+.photo-field {
+    font-weight: bolder;
+    margin: 2rem;
+    display: flex;
+    background-color: crimson;
+}
+.photo-field>label>img{
+    width: 6rem;
+}
+.photo-field .file {
+    display: none;
+}
